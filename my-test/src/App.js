@@ -7,12 +7,12 @@ import Form from "./components/Form";
 
 
 function App() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState([{
     fName: '',
     lName: '',
     email: '',
     password: ''
-  })
+  }])
   const [homeData, setHomeData] = useState([])
 
   useEffect(()=> {
